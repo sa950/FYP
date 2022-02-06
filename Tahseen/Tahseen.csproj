@@ -98,6 +98,7 @@
     <Content Include="CSS\StyleSheet.css" />
     <Content Include="Global.asax" />
     <Content Include="imgs\exit.png" />
+    <Content Include="imgs\favicon.ico" />
     <Content Include="imgs\info.png" />
     <Content Include="imgs\Logo.png" />
     <Content Include="imgs\questionmark.png" />

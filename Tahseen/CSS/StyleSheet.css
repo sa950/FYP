@@ -26,12 +26,24 @@
     padding-bottom: 50px;
 }
 
+.staticcontent .user a {
+    text-decoration: none;
+    color: white;
+}
+
 .staticoptions .exit {
     padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+    .staticoptions .exit a {
+        text-decoration: none;
+        color: white;
+    }
+
+
 
 .staticoptions {
     text-align: center;
@@ -47,7 +59,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
+
+    .options a {
+        text-decoration: none;
+        color: white;
+    }
+
 .dynamiccontent {
     width: 80%;
     background-color: #fafafa;
@@ -66,6 +85,7 @@
     padding-right: 5px;
 }
 
-.footerpotions ul a{
+.footerpotions ul a {
     text-decoration: none;
+    color: black;
 }
