@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial scale=1" />
+    <title>@ViewBag.Title</title>
+    <link href="~/CSS/StyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div>
+        <!--Navbar-->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <img src="~/imgs/Logo.png"  Height="82px" Width="48px" />
+                </div>
+            </div>
+        </nav>
+
+        @RenderBody()
+    
+        <!--footer-->
+        <nav class="footer">
+            <div class="navbar-footer">
+
+            </div>
+        </nav>
+    
+    </div>
+</body>
+</html>
