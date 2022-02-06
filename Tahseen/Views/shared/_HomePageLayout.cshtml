@@ -6,6 +6,8 @@
     <title>@ViewBag.Title</title>
     <link href="~/CSS/StyleSheet.css" rel="stylesheet" />
     <link rel="icon" type="image/png" sizes="50x20" href="~/imgs/favicon.ico">
+
+
 </head>
 <body>
     <table style="width:100%;">
@@ -14,18 +16,19 @@
                 <a href="#">
                     <img src="~/imgs/Logo.png" Height="82px" Width="48px" />
                 </a>
-                
-            </td>
-        </tr>
 
-        <tr>
-            <td class="staticcontent">
-                <div class="staticoptions">
+                <span class="menu" style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="~/imgs/menu2.png" Height="45px" Width="45px" /></span>
 
-                    <div class="user">
-                        <img src="~/imgs/user.png" Height="82px" Width="85px" />
-                        <div><b><a href="#">الملف الشخصي</a></b></div>
+
+                <div id="mySidenav" class="sidenav">
+
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                    <div class="usericon">
+                        <img src="~/imgs/user2.png" Height="82px" Width="85px" />
                     </div>
+
+                    <div class="user"><b><a href="#">الملف الشخصي</a></b></div>
 
 
                     <div class="options">
@@ -41,16 +44,20 @@
                         <div><a href="#">عن تحصين</a></div><img src="~/imgs/info.png" Height="25px" Width="25px" />
                     </div>
 
-
-
                     <div class="exit">
                         <div><b><a href="#">تسجيل الخروج</a></b></div><img src="~/imgs/exit.png" Height="25px" Width="25px" />
                     </div>
 
                 </div>
 
-            </td>
 
+
+            </td>
+        </tr>
+
+        <tr>
+
+                
             <td class="dynamiccontent">
                 @RenderBody()
             </td>
@@ -65,11 +72,21 @@
                         <a href="#"><li>دليل الاستخدام</li></a>
                     </ul>
                 </div>
-                
+
                 <h3>الحقوق محفوظة لمنصة تحصين &copy; 2022</h3>
             </td>
         </tr>
     </table>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "350px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
 
 </body>
 </html>
