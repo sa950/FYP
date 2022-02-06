@@ -97,7 +97,14 @@
   <ItemGroup>
     <Content Include="CSS\StyleSheet.css" />
     <Content Include="Global.asax" />
+    <Content Include="imgs\exit.png" />
+    <Content Include="imgs\info.png" />
     <Content Include="imgs\Logo.png" />
+    <Content Include="imgs\questionmark.png" />
+    <Content Include="imgs\settings.png" />
+    <Content Include="imgs\telephone.png" />
+    <Content Include="imgs\user.png" />
+    <Content Include="imgs\wallpaper3.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

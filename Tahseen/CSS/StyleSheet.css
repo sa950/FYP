@@ -2,20 +2,70 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar-header {
-    background-color: #fff5fa;
-    padding: 30px;
-    text-align: right;
-    font-size: 35px;
-    color: white;
-    height: 100px;
+.header {
+    background-image: url('../imgs/wallpaper3.jpg');
+    background-size: cover;
+    
 }
 
-.navbar-footer {
-    background-color: #fff5fa;
-    padding: 30px;
-    text-align: right;
-    font-size: 35px;
+    .header img {
+        float: right;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+
+.staticcontent {
+    background-color: #4aa991;
+    width: 20%;
+}
+
+
+.staticoptions .user {
+    padding-bottom: 50px;
+}
+
+.staticoptions .exit {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.staticoptions {
+    text-align: center;
     color: white;
-    height: 100px;
+    padding: 30px;
+}
+
+.staticoptions div{
+    padding: 10px;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dynamiccontent {
+    width: 80%;
+    background-color: #fafafa;
+}
+
+.footer {
+    text-align: center;
+    font-size: x-small;
+    background-image: url('../imgs/wallpaper3.jpg');
+    background-size: cover;
+}
+
+.footerpotions ul li {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footerpotions ul a{
+    text-decoration: none;
 }

@@ -8,25 +8,68 @@
 
 </head>
 <body>
-    <div>
-        <!--Navbar-->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <img src="~/imgs/Logo.png"  Height="82px" Width="48px" />
+    <table style="width:100%;">
+        <tr>
+            <td class="header" colspan="2">
+                <a href="#">
+                    <img src="~/imgs/Logo.png" Height="82px" Width="48px" />
+                </a>
+                
+            </td>
+        </tr>
+
+        <tr>
+            <td class="staticcontent">
+                <div class="staticoptions">
+
+                    <div class="user">
+                        <img src="~/imgs/user.png" Height="82px" Width="85px" />
+                        <div><b>الملف الشخصي</b></div>
+                    </div>
+
+
+                    <div class="options">
+                        <div>الإعدادات</div><img src="~/imgs/settings.png" Height="25px" Width="25px" />
+                    </div>
+                    <div class="options">
+                        <div>مركز المساعدة</div><img src="~/imgs/settings.png" Height="25px" Width="25px" />
+                    </div>
+                    <div class="options">
+                        <div>الاسئلة الشائعة</div><img src="~/imgs/settings.png" Height="25px" Width="25px" />
+                    </div>
+                    <div class="options">
+                        <div>عن تحصين</div><img src="~/imgs/settings.png" Height="25px" Width="25px" />
+                    </div>
+
+
+
+                    <div class="exit">
+                        <div><b>تسجيل الخروج</b></div><img src="~/imgs/settings.png" Height="25px" Width="25px" />
+                    </div>
+
                 </div>
-            </div>
-        </nav>
 
-        @RenderBody()
-    
-        <!--footer-->
-        <nav class="footer">
-            <div class="navbar-footer">
+            </td>
 
-            </div>
-        </nav>
-    
-    </div>
+            <td class="dynamiccontent">
+                @RenderBody()
+            </td>
+        </tr>
+
+        <tr>
+            <td class="footer" colspan="2">
+                <div class="footerpotions">
+                    <ul>
+                        <a href="#"><li>الشروط والأحكام</li></a>
+                        <li> | </li>
+                        <a href="#"><li>دليل الاستخدام</li></a>
+                    </ul>
+                </div>
+                
+                <h3>الحقوق محفوظة لمنصة تحصين &copy; 2022</h3>
+            </td>
+        </tr>
+    </table>
+
 </body>
 </html>
