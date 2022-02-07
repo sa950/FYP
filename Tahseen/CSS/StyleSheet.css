@@ -1,28 +1,107 @@
 ﻿body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto;
 }
 
 .header {
+    /*
     background-image: url('../imgs/wallpaper3.jpg');
     background-size: cover;
-    
+        */
+    background-color: white;
+    padding-bottom: 15px;
 }
 
     .header img {
         float: right;
         padding-right: 50px;
-        padding-bottom: 20px;
         padding-top: 20px;
         padding-left: 50px;
     }
 
-.usericon {
-    padding-bottom: 10px;
-        display: flex;
-    align-items: center;
-    justify-content: center;
-
+.topmenu1 {
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 20px;
+    float: right;
 }
+
+.topmenu1 li {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    text-align:center;
+}
+
+    .topmenu1 ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+        .topmenu1 ul li a:hover {
+            text-shadow: 0 0 5px #2b9983;
+            color: #2d8064;
+        }
+
+.topmenu2 {
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 20px;
+    float: none;
+}
+
+    .topmenu2 li {
+        display: inline;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .topmenu2 ul li a {
+        text-decoration: none;
+
+    }
+
+    .topmenu2 .login a {
+        color: #369c7f;
+    }
+
+        .topmenu2 .login a:hover {
+            color: #17523a;
+            text-shadow: 0 0 5px #2b9983;
+        }
+
+    .topmenu2 .signup div {
+        border-radius: 5px;
+        display: inline;
+        background-color: #2d8064;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border: 1.5px solid black;
+    }
+
+.topmenu2 .signup div a{
+    color:white;
+        }
+
+        .topmenu2 .signup div:hover {
+            background-color: #45c793;
+            box-shadow: 0 0 5px #2b9983;
+        }
+
+        .topmenu2 .signup div a:hover {
+            color: white;
+        }
+            .usericon {
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
 
 .user {
@@ -59,16 +138,21 @@
     }
 
 .dynamiccontent {
+    padding: 0;
+    margin: 0;
     width: 100%;
-    background-color: #fafafa;
+    background-color: #f0f0f0;
 }
 
 
 .footer {
     text-align: center;
     font-size: x-small;
+    /*
     background-image: url('../imgs/wallpaper3.jpg');
     background-size: cover;
+        */
+    background-color: white;
 }
 
 .footerpotions ul li {
@@ -135,4 +219,75 @@
     padding-bottom: 20px;
     padding-top: 20px;
     padding-left: 10px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+.active:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }

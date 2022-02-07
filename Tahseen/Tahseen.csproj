@@ -101,10 +101,11 @@
     <Content Include="imgs\favicon.ico" />
     <Content Include="imgs\info.png" />
     <Content Include="imgs\Logo.png" />
-    <Content Include="imgs\menu.png" />
     <Content Include="imgs\menu2.png" />
     <Content Include="imgs\questionmark.png" />
     <Content Include="imgs\settings.png" />
+    <Content Include="imgs\slideshow.png" />
+    <Content Include="imgs\slideshow2.png" />
     <Content Include="imgs\telephone.png" />
     <Content Include="imgs\user.png" />
     <Content Include="imgs\user2.png" />
@@ -123,8 +124,9 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
-    <Content Include="Views\shared\_HomePageLayout.cshtml" />
+    <Content Include="Views\shared\_PageLayout.cshtml" />
     <Content Include="Views\test\Index.cshtml" />
+    <Content Include="Views\test\Parent.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
