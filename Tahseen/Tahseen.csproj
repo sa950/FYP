@@ -106,6 +106,8 @@
     <Content Include="imgs\settings.png" />
     <Content Include="imgs\slideshow.png" />
     <Content Include="imgs\slideshow2.png" />
+    <Content Include="imgs\slideshowdoctor.jpg" />
+    <Content Include="imgs\slideshowimmu.jpg" />
     <Content Include="imgs\telephone.png" />
     <Content Include="imgs\user.png" />
     <Content Include="imgs\user2.png" />
