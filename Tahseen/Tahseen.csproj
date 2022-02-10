@@ -99,23 +99,16 @@
     <Content Include="Global.asax" />
     <Content Include="imgs\00.jpg" />
     <Content Include="imgs\exit.png" />
-    <Content Include="imgs\favicon.ico" />
     <Content Include="imgs\info.png" />
     <Content Include="imgs\Logo.png" />
     <Content Include="imgs\menu2.png" />
-    <Content Include="imgs\nscroll.jpg" />
     <Content Include="imgs\questionmark.png" />
     <Content Include="imgs\settings.png" />
-    <Content Include="imgs\slider.jpg" />
-    <Content Include="imgs\slider2.jpg" />
-    <Content Include="imgs\slideshow.png" />
-    <Content Include="imgs\slideshow2.png" />
-    <Content Include="imgs\slideshowdoctor.jpg" />
-    <Content Include="imgs\slideshowimmu.jpg" />
+    <Content Include="imgs\slider1.png" />
+    <Content Include="imgs\slider5.jpg" />
+    <Content Include="imgs\tahseen.ico" />
     <Content Include="imgs\telephone.png" />
-    <Content Include="imgs\user.png" />
     <Content Include="imgs\user2.png" />
-    <Content Include="imgs\wallpaper3.jpg" />
     <Content Include="Scripts\JavaScript.js" />
     <Content Include="Web.config" />
   </ItemGroup>
