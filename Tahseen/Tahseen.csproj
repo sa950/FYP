@@ -125,7 +125,8 @@
     <None Include="packages.config" />
     <Content Include="Views\shared\_PageLayout.cshtml" />
     <Content Include="Views\test\Index.cshtml" />
-    <Content Include="Views\test\test.cshtml" />
+    <Content Include="Views\shared\_PageLayout2.cshtml" />
+    <Content Include="Views\test\Parent.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -14,7 +14,7 @@ namespace Tahseen.Controllers
             return View();
         }
 
-        public ActionResult test()
+        public ActionResult Parent()
         {
             return View();
         }
