@@ -127,6 +127,7 @@
     <Content Include="Views\test\Index.cshtml" />
     <Content Include="Views\shared\_PageLayout2.cshtml" />
     <Content Include="Views\test\Parent.cshtml" />
+    <Content Include="Views\test\basicvacc.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
