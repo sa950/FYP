@@ -291,3 +291,81 @@
         opacity: 1
     }
 }
+/* doctor page services */
+#hed {
+    text-align: center;
+    font-size: 35px;
+    color: #3e4b93;
+    margin-top: 50px;
+}
+.Services {
+    border-radius: 10px;
+    background: #b8d6ea;
+    padding: 20px;
+    width: 204px;
+    height: 144px;
+    margin: 130px;
+    float: left;
+    font-size: 20px;
+    color:black;
+}
+#title {
+    text-align: center;
+    
+}
+
+.fa-check-square:before {
+    content: "\f14a";
+    text-align: center;
+    padding-left: 65px;
+}
+
+.fa-laptop-medical:before {
+    content: "\f812";
+    text-align: center;
+    padding-left: 61px;
+}
+
+.fa-comment-medical:before {
+    content: "\f7f5";
+    text-align: center;
+    padding-left: 63px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+     color: black;
+    
+}
+a:hover, a:active {
+    text-decoration: none;
+    color: blue;
+}
+/* children records services page  */
+.Services-f {
+    border-radius: 8px;
+    background: #b8d6ea;
+    padding: 20px;
+    width: 230px;
+    height: 180px;
+    margin-top: 180px;
+    margin-bottom: 167px;
+}
+
+.fa-heartbeat:before {
+    padding-left: 80px;
+    content: "\f21e";
+}
+
+.fa-laptop-medical:before {
+    content: "\f812";
+    padding-left: 81px;
+}
+.fa-hand-holding-medical:before {
+    content: "\e05c";
+    padding-left: 85px;
+}
+.fa-shield-virus:before {
+    content: "\e06c";
+    padding-left: 87px;
+}
