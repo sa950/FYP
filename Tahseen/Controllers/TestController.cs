@@ -14,5 +14,15 @@ namespace Tahseen.Controllers
             return View();
         }
 
+        public ActionResult Parent()
+        {
+            return View();
+        }
+
+        public ActionResult basicvacc()
+        {
+            return View();
+        }
+
     }
 }

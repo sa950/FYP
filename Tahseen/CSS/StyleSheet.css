@@ -1,6 +1,6 @@
 ﻿body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px auto;
+    
 }
 
 .header {
@@ -21,18 +21,19 @@
 
 .topmenu1 {
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 25px;
     margin-right: 20px;
     float: right;
 }
 
-.topmenu1 li {
-    display: inline;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 18px;
-    text-align:center;
-}
+    .topmenu1 li {
+        display: inline;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 18px;
+        text-align: center;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+    }
 
     .topmenu1 ul li a {
         text-decoration: none;
@@ -46,7 +47,7 @@
 
 .topmenu2 {
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 25px;
     margin-right: 20px;
     float: none;
 }
@@ -57,6 +58,7 @@
         padding-right: 5px;
         font-size: 18px;
         text-align: center;
+        font-family: 'Noto Kufi Arabic', sans-serif;
     }
 
     .topmenu2 ul li a {
@@ -79,8 +81,6 @@
         background-color: #2d8064;
         padding-left: 15px;
         padding-right: 15px;
-        padding-top: 2px;
-        padding-bottom: 2px;
         border: 1.5px solid black;
     }
 
@@ -96,6 +96,10 @@
         .topmenu2 .signup div a:hover {
             color: white;
         }
+
+
+
+        /*
             .usericon {
             padding-bottom: 10px;
             display: flex;
@@ -111,6 +115,7 @@
     justify-content: center;
     text-decoration: none;
     color: white;
+    font-family: 'Noto Kufi Arabic', sans-serif;
 }
 
 .exit {
@@ -123,8 +128,10 @@
     .exit a {
         text-decoration: none;
         color: white;
+        font-family: 'Noto Kufi Arabic', sans-serif;
     }
 
+   
 .options {
     display: flex;
     align-items: center;
@@ -135,15 +142,10 @@
     .options a {
         text-decoration: none;
         color: white;
+        font-family: 'Noto Kufi Arabic', sans-serif;
     }
 
-.dynamiccontent {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    background-color: #f0f0f0;
-}
-
+        */
 
 .footer {
     text-align: center;
@@ -153,12 +155,15 @@
     background-size: cover;
         */
     background-color: white;
+    font-family: 'Noto Kufi Arabic', sans-serif;
 }
 
 .footerpotions ul li {
     display: inline;
     padding-left: 5px;
     padding-right: 5px;
+    font-size: 12px;
+    padding: 15px;
 }
 
 .footerpotions ul a {
@@ -166,7 +171,7 @@
     color: black;
 }
 
-
+/*
 .sidenav {
     height: 100%;
     width: 0;
@@ -220,76 +225,123 @@
     padding-top: 20px;
     padding-left: 10px;
 }
+    */
 
-/* Slideshow container */
-.slideshow-container {
-    width: 100%;
-    position: relative;
-    margin: auto;
+.dynamiccontent {
 }
 
-/* Hide the images by default */
-.mySlides {
-    display: none;
+#bsection div {
+    margin-bottom: 100px;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
+
+#s1, #s2, #s3, #s4, #s5, #s6 {
+    display: inline;
 }
 
-/* Position the "next button" to the right */
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+#s1 {
+    float: left;
+    width: 50%;
+    height: 500px;
 }
 
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover, .next:hover {
-        background-color: rgba(0,0,0,0.8);
+#s2 {
+    float: right;
+    width: 50%;
+    height: 500px;
+}
+
+#s1 h1 {
+    text-align: right;
+    font-size: 70px;
+    padding-right: 150px;
+    color: #009fcf;
+}
+
+#bsectiondivh1 {
+    padding-top: 0px;
+}
+
+
+#s3 {
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+
+#s4 {
+    float: right;
+    width: 50%;
+    height: 500px;
+}
+
+    #s4 h1 {
+        text-align: center;
+        font-size: 70px;
+        color: #9e5271;
     }
 
-.active:hover {
-    background-color: #717171;
+    #s4 h2 {
+        text-align: center;
+        font-size: 35px;
+        color: #523708;
+    }
+
+
+#s5 {
+    float: left;
+    width: 50%;
+    height: 500px;
+    text-align: center;
 }
 
-/* Fading animation */
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
+#s6 {
+    float: right;
+    width: 50%;
+    height: 500px;
 }
 
-@-webkit-keyframes fade {
-    from {
-        opacity: .4
-    }
-
-    to {
-        opacity: 1
-    }
+#s5 h2 {
+    text-align: center;
+    font-size: 45px;
+    color: #42b871;
 }
 
-@keyframes fade {
-    from {
-        opacity: .4
-    }
+#s5 article {
+    text-align: center;
+    font-size: 20px;
+    padding-left: 90px;
+}
 
-    to {
-        opacity: 1
+#bsectiondivh2 {
+    padding-top: 100px;
+}
+
+#s6 img {
+    border-radius: 40%;
+    margin-left: 100px;
+}
+
+
+#readmore {
+    border-radius: 5px;
+    background-color: #b8ad48;
+    border: 1.5px solid black;
+    display: inline-block;
+    margin: 40px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 16px;
+}
+
+    #readmore a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Noto Kufi Arabic', sans-serif;
     }
+<<<<<<< HEAD
 }
 /* doctor page services */
 #hed {
@@ -369,3 +421,9 @@ a:hover, a:active {
     content: "\e06c";
     padding-left: 87px;
 }
+=======
+
+    #readmore:hover {
+            background-color: #dbde78;
+        }
+>>>>>>> edf4c964fe59201abee2897e85369c945432cf85

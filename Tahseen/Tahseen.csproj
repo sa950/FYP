@@ -96,22 +96,19 @@
   <ItemGroup>
     <Content Include="CSS\StyleSheet.css" />
     <Content Include="Global.asax" />
+    <Content Include="imgs\00.jpg" />
     <Content Include="imgs\exit.png" />
-    <Content Include="imgs\favicon.ico" />
     <Content Include="imgs\info.png" />
     <Content Include="imgs\Logo.png" />
     <Content Include="imgs\medical-history.png" />
     <Content Include="imgs\menu2.png" />
     <Content Include="imgs\questionmark.png" />
     <Content Include="imgs\settings.png" />
-    <Content Include="imgs\slideshow.png" />
-    <Content Include="imgs\slideshow2.png" />
-    <Content Include="imgs\slideshowdoctor.jpg" />
-    <Content Include="imgs\slideshowimmu.jpg" />
+    <Content Include="imgs\slider1.png" />
+    <Content Include="imgs\slider5.jpg" />
+    <Content Include="imgs\tahseen.ico" />
     <Content Include="imgs\telephone.png" />
-    <Content Include="imgs\user.png" />
     <Content Include="imgs\user2.png" />
-    <Content Include="imgs\wallpaper3.jpg" />
     <Content Include="Scripts\JavaScript.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -129,9 +126,15 @@
     <None Include="packages.config" />
     <Content Include="Views\shared\_PageLayout.cshtml" />
     <Content Include="Views\test\Index.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\doc\Index.cshtml" />
     <Content Include="Views\doc\files.cshtml" />
     <Content Include="Views\doc\cdata.cshtml" />
+=======
+    <Content Include="Views\shared\_PageLayout2.cshtml" />
+    <Content Include="Views\test\Parent.cshtml" />
+    <Content Include="Views\test\basicvacc.cshtml" />
+>>>>>>> edf4c964fe59201abee2897e85369c945432cf85
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
